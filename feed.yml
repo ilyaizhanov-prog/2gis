@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-06-15 19:45">
+<yml_catalog date="2026-06-15 20:00">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -16,7 +16,7 @@
         <url>https://example.com/product/8add9892-5ed5-11ef-0a80-106e000c5555</url>
         <currencyId>KZT</currencyId>
         <categoryId>e8156f34-fe69-11ef-0a80-0868000ddb09</categoryId>
-        <price>97000</price>
+        <price>170000</price>
         <vendorCode>g1007</vendorCode>
         <description>Обеденный стол Pegasus — элегантное решение в скандинавском стиле для дома и ресторана. Столешница из МДФ, облицованная натуральным шпоном дуба, и конические ножки из массива дерева создают лёгкий, современный силуэт.
 
@@ -39,7 +39,7 @@
         <url>https://example.com/product/8ae33911-5ed5-11ef-0a80-106e000c555e</url>
         <currencyId>KZT</currencyId>
         <categoryId>e8156f34-fe69-11ef-0a80-0868000ddb09</categoryId>
-        <price>97000</price>
+        <price>170000</price>
         <vendorCode>g1007</vendorCode>
         <description>Обеденный стол Pegasus — элегантное решение в скандинавском стиле для дома и ресторана. Столешница из МДФ, облицованная натуральным шпоном дуба, и конические ножки из массива дерева создают лёгкий, современный силуэт.
 
@@ -62,7 +62,7 @@
         <url>https://example.com/product/d0c8a036-2f51-11f0-0a80-195e00002eeb</url>
         <currencyId>KZT</currencyId>
         <categoryId>e8156f34-fe69-11ef-0a80-0868000ddb09</categoryId>
-        <price>165000</price>
+        <price>170000</price>
         <vendorCode>g1007</vendorCode>
         <description>Обеденный стол Pegasus — элегантное решение в скандинавском стиле для дома и ресторана. Столешница из МДФ, облицованная натуральным шпоном дуба, и конические ножки из массива дерева создают лёгкий, современный силуэт.
 
