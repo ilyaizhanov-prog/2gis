@@ -36,17 +36,74 @@ def ms_get(path, params=None):
     return resp.json()
 
 
+def get_variant_as_product(variant: dict) -> dict:
+    """Склеивает данные модификации с родительским товаром."""
+    # Получаем родительский товар
+    product_href = variant.get("product", {}).get("meta", {}).get("href", "")
+    parent = {}
+    if product_href:
+        try:
+            parent = requests.get(
+                product_href,
+                headers=MS_HEADERS,
+                params={"expand": "productFolder"},
+                timeout=15,
+            ).json()
+        except Exception:
+            pass
+
+    # Собираем итоговый объект: берём данные модификации, дополняем родителем
+    result = {**parent, **{k: v for k, v in variant.items() if v}}
+    # Название: "Товар / Характеристики"
+    characteristics = ", ".join(
+        c.get("value", "") for c in variant.get("characteristics", [])
+    )
+    base_name = parent.get("name") or variant.get("name", "—")
+    result["name"] = f"{base_name} / {characteristics}" if characteristics else base_name
+    result["id"]   = variant["id"]
+    return result
+
+
 def get_products(codes: list[str]) -> list[dict]:
     results = []
+    seen_ids = set()
+
     for code in codes:
-        data = ms_get("/entity/product", {
+        found = False
+
+        # 1. Ищем среди модификаций (variant) по коду
+        rows = ms_get("/entity/variant", {
             "filter": f"code={code}",
-            "expand": "productFolder",
+            "expand": "product",
             "limit": 5,
-        })
-        rows = data.get("rows", [])
-        print(f"  Код '{code}': найдено {len(rows)} шт.")
-        results.extend(rows)
+        }).get("rows", [])
+        if rows:
+            print(f"  Код '{code}': найдено {len(rows)} модификаций")
+            for v in rows:
+                if v["id"] not in seen_ids:
+                    seen_ids.add(v["id"])
+                    results.append(get_variant_as_product(v))
+            found = True
+
+        # 2. Если не нашли — ищем среди обычных товаров по артикулу/коду
+        if not found:
+            for params in [
+                {"filter": f"article={code}", "expand": "productFolder", "limit": 5},
+                {"filter": f"code={code}",    "expand": "productFolder", "limit": 5},
+            ]:
+                rows = ms_get("/entity/product", params).get("rows", [])
+                if rows:
+                    print(f"  Код '{code}': найдено {len(rows)} товаров")
+                    for r in rows:
+                        if r["id"] not in seen_ids:
+                            seen_ids.add(r["id"])
+                            results.append(r)
+                    found = True
+                    break
+
+        if not found:
+            print(f"  Код '{code}': не найден")
+
     return results
 
 
