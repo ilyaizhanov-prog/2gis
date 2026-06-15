@@ -36,16 +36,16 @@ def ms_get(path, params=None):
     return resp.json()
 
 
-def get_products(articles: list[str]) -> list[dict]:
+def get_products(codes: list[str]) -> list[dict]:
     results = []
-    for article in articles:
+    for code in codes:
         data = ms_get("/entity/product", {
-            "filter": f"article={article}",
+            "filter": f"code={code}",
             "expand": "productFolder",
             "limit": 5,
         })
         rows = data.get("rows", [])
-        print(f"  Артикул '{article}': найдено {len(rows)} шт.")
+        print(f"  Код '{code}': найдено {len(rows)} шт.")
         results.extend(rows)
     return results
 
