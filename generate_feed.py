@@ -18,11 +18,17 @@ DEFAULT_ARTICLES = ["00031", "00032", "40-543"]
 
 MS_BASE = "https://api.moysklad.ru/api/remap/1.2"
 
+MS_HEADERS = {
+    "Authorization": f"Bearer {MOYSKLAD_TOKEN}",
+    "Accept":        "application/json;charset=utf-8",
+    "Content-Type":  "application/json",
+}
+
 
 def ms_get(path, params=None):
     resp = requests.get(
         f"{MS_BASE}{path}",
-        headers={"Authorization": f"Bearer {MOYSKLAD_TOKEN}"},
+        headers=MS_HEADERS,
         params=params,
         timeout=15,
     )
@@ -33,11 +39,13 @@ def ms_get(path, params=None):
 def get_products(articles: list[str]) -> list[dict]:
     results = []
     for article in articles:
-        rows = ms_get("/entity/product", {
+        data = ms_get("/entity/product", {
             "filter": f"article={article}",
             "expand": "productFolder",
             "limit": 5,
-        }).get("rows", [])
+        })
+        rows = data.get("rows", [])
+        print(f"  Артикул '{article}': найдено {len(rows)} шт.")
         results.extend(rows)
     return results
 
