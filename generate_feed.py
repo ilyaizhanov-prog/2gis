@@ -13,7 +13,7 @@ MOYSKLAD_TOKEN   = os.environ["MOYSKLAD_TOKEN"]   # задаётся в GitHub S
 SHOP_NAME        = "Мебель — столы и стулья"
 COMPANY_NAME     = "Ваша компания"
 SHOP_URL         = "https://example.com"          # замени на свой сайт
-CURRENCY         = "KZT"
+CURRENCY         = "RUB"
 DEFAULT_ARTICLES = ["00031", "00032", "40-543"]
 
 MS_BASE = "https://api.moysklad.ru/api/remap/1.2"
@@ -91,7 +91,7 @@ def build_yml(products: list[dict]) -> str:
 
     offers = SubElement(shop, "offers")
     for p in products:
-        pid   = p["id"]
+        pid    = p["id"]
         folder = p.get("productFolder")
         cat_id = folder["meta"]["href"].split("/")[-1] if folder else (list(cat_ids)[0] if cat_ids else "1")
 

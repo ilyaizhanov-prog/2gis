@@ -1,0 +1,11 @@
+# Секреты — НИКОГДА не коммитим
+.env
+
+# Локальные артефакты экспорта
+2gis_export.xlsx
+images/
+public/
+
+# Python
+__pycache__/
+*.py[cod]
