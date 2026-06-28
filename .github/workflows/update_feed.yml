@@ -27,7 +27,7 @@ jobs:
       - name: Сгенерировать фид
         env:
           MOYSKLAD_TOKEN: ${{ secrets.MOYSKLAD_TOKEN }}
-          ARTICLES: "00031,00032,40-543"
+          ARTICLES: "g1007"
           OUTPUT_FILE: "public/feed.yml"
         run: |
           mkdir -p public
@@ -39,4 +39,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
+          keep_files: true
           commit_message: "Обновление фида ${{ github.run_id }}"
