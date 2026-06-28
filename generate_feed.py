@@ -135,19 +135,20 @@ def build_yml(base_products: list[dict], variants: list[dict], out_dir: str) -> 
     cur.set("id", CURRENCY)
     cur.set("rate", "1")
 
+    # Категории: YML требует ЧИСЛОВОЙ id, поэтому маппим href МойСклада → 1,2,3...
     categories = SubElement(shop, "categories")
-    cat_ids: dict[str, str] = {}
+    cat_num: dict[str, int] = {}
     for p in base_products:
         folder = p.get("productFolder")
         if folder:
-            fid  = folder["meta"]["href"].split("/")[-1]
-            name = folder.get("name", "Без категории")
-            if fid not in cat_ids:
-                cat_ids[fid] = name
+            href = folder["meta"]["href"]
+            if href not in cat_num:
+                num = len(cat_num) + 1
+                cat_num[href] = num
                 el = SubElement(categories, "category")
-                el.set("id", fid)
-                el.text = name
-    if not cat_ids:
+                el.set("id", str(num))
+                el.text = folder.get("name", "Без категории")
+    if not cat_num:
         el = SubElement(categories, "category")
         el.set("id", "1")
         el.text = "Мебель"
@@ -156,7 +157,7 @@ def build_yml(base_products: list[dict], variants: list[dict], out_dir: str) -> 
     rows = variants if variants else base_products
 
     offers = SubElement(shop, "offers")
-    for obj in rows:
+    for idx, obj in enumerate(rows, 1):
         if variants:
             parent_id = obj.get("product", {}).get("meta", {}).get("href", "").split("/")[-1]
             base = base_by_id.get(parent_id, {})
@@ -165,10 +166,14 @@ def build_yml(base_products: list[dict], variants: list[dict], out_dir: str) -> 
             parent_id = obj["id"]
 
         folder = base.get("productFolder")
-        cat_id = folder["meta"]["href"].split("/")[-1] if folder else (list(cat_ids)[0] if cat_ids else "1")
+        cat_id = str(cat_num.get(folder["meta"]["href"], 1)) if folder else "1"
+
+        # offer id: только цифры/латиница, ≤20 символов (требование YML)
+        art = "".join(c for c in (base.get("article") or "id") if c.isalnum()) or "id"
+        offer_id = f"{art}{idx}"[:20]
 
         offer = SubElement(offers, "offer")
-        offer.set("id", obj["id"])
+        offer.set("id", offer_id)
         offer.set("available", "true")
 
         SubElement(offer, "name").text       = obj.get("name", "—")
@@ -182,7 +187,9 @@ def build_yml(base_products: list[dict], variants: list[dict], out_dir: str) -> 
         if base.get("article"):
             SubElement(offer, "vendorCode").text = base["article"]
         if base.get("description"):
-            SubElement(offer, "description").text = base["description"]
+            # 2ГИС не допускает переносы строк в описании — схлопываем в один абзац
+            desc = " ".join(base["description"].split())
+            SubElement(offer, "description").text = desc
 
         # Фото: сначала из модификации, иначе из базового товара
         images = download_images(obj["id"], obj.get("name", ""), out_dir, "variant") if variants else []
@@ -193,8 +200,11 @@ def build_yml(base_products: list[dict], variants: list[dict], out_dir: str) -> 
 
     raw = tostring(catalog, encoding="unicode")
     dom = minidom.parseString(f'<?xml version="1.0" encoding="UTF-8"?>{raw}')
-    return '<?xml version="1.0" encoding="UTF-8"?>\n' + "\n".join(
-        dom.toprettyxml(indent="  ").splitlines()[1:]
+    body = "\n".join(dom.toprettyxml(indent="  ").splitlines()[1:])
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<!DOCTYPE yml_catalog SYSTEM "shops.dtd">\n'
+        + body
     )
 
 
