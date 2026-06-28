@@ -27,7 +27,6 @@ jobs:
       - name: Сгенерировать фид
         env:
           MOYSKLAD_TOKEN: ${{ secrets.MOYSKLAD_TOKEN }}
-          ARTICLES: "g1007"
           OUTPUT_FILE: "public/feed.xml"
         run: |
           mkdir -p public

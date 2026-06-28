@@ -41,7 +41,11 @@ SHOP_NAME        = "Мебель — столы и стулья"
 COMPANY_NAME     = "Ваша компания"
 SHOP_URL         = "https://example.com"          # замени на свой сайт
 CURRENCY         = "KZT"                           # тенге (бизнес в Казахстане)
-DEFAULT_ARTICLES = ["g1007"]
+
+# Названия доп. полей в МойСклад, по которым работает выгрузка
+ATTR_EXPORT_FLAG = "Выгружать 2gis"    # boolean: выгружать товар в 2ГИС
+ATTR_DESCRIPTION = "Описание для 2gis"  # text: описание для фида
+ATTR_CATEGORY    = "Разделы 2gis"       # справочник: категория (раздел)
 
 # Публичный адрес GitHub Pages, куда публикуется содержимое папки public/
 PAGES_BASE = "https://ilyaizhanov-prog.github.io/2gis"
@@ -75,12 +79,43 @@ def get_products(articles: list[str]) -> list[dict]:
     return results
 
 
+def get_all_products() -> list[dict]:
+    """Все товары из МойСклад (с пагинацией)."""
+    products, offset = [], 0
+    while True:
+        rows = ms_get("/entity/product", {"limit": 1000, "offset": offset}).get("rows", [])
+        products.extend(rows)
+        if len(rows) < 1000:
+            break
+        offset += 1000
+    return products
+
+
 def get_variants(product_id: str) -> list[dict]:
     """Все модификации товара."""
     try:
         return ms_get("/entity/variant", {"filter": f"productid={product_id}", "limit": 100}).get("rows", [])
     except Exception:
         return []
+
+
+def get_attr_value(entity: dict, name: str):
+    """Значение доп. поля МойСклад по названию (или None)."""
+    for a in entity.get("attributes", []):
+        if a.get("name") == name:
+            return a.get("value")
+    return None
+
+
+def attr_text(entity: dict, name: str) -> str:
+    v = get_attr_value(entity, name)
+    if isinstance(v, dict):          # справочник (customentity) → {name: ...}
+        return v.get("name", "") or ""
+    return v if isinstance(v, str) else ""
+
+
+def attr_flag(entity: dict, name: str) -> bool:
+    return get_attr_value(entity, name) is True
 
 
 def get_sale_price(product: dict) -> float | None:
@@ -121,7 +156,25 @@ def download_images(obj_id: str, name: str, out_dir: str, entity: str = "product
     return urls
 
 
-def build_yml(base_products: list[dict], variants: list[dict], out_dir: str) -> str:
+def add_offer(offers, offer_id, name, parent_id, cat_id, price, article, desc, images):
+    offer = SubElement(offers, "offer")
+    offer.set("id", offer_id)
+    offer.set("available", "true")
+    SubElement(offer, "name").text       = name or "—"
+    SubElement(offer, "url").text        = f"{SHOP_URL}/product/{parent_id}"
+    SubElement(offer, "currencyId").text = CURRENCY
+    SubElement(offer, "categoryId").text = cat_id
+    if price:
+        SubElement(offer, "price").text = str(int(price))
+    if article:
+        SubElement(offer, "vendorCode").text = article
+    if desc:
+        SubElement(offer, "description").text = desc
+    for url in images:
+        SubElement(offer, "picture").text = url
+
+
+def build_yml(base_products: list[dict], out_dir: str) -> str:
     catalog = Element("yml_catalog")
     catalog.set("date", datetime.now().strftime("%Y-%m-%d %H:%M"))
     shop = SubElement(catalog, "shop")
@@ -135,68 +188,65 @@ def build_yml(base_products: list[dict], variants: list[dict], out_dir: str) -> 
     cur.set("id", CURRENCY)
     cur.set("rate", "1")
 
-    # Категории: YML требует ЧИСЛОВОЙ id, поэтому маппим href МойСклада → 1,2,3...
+    # Категории из поля «Разделы 2gis». YML требует числовой id → маппим имя → 1,2,3...
     categories = SubElement(shop, "categories")
     cat_num: dict[str, int] = {}
     for p in base_products:
-        folder = p.get("productFolder")
-        if folder:
-            href = folder["meta"]["href"]
-            if href not in cat_num:
-                num = len(cat_num) + 1
-                cat_num[href] = num
-                el = SubElement(categories, "category")
-                el.set("id", str(num))
-                el.text = folder.get("name", "Без категории")
-    if not cat_num:
-        el = SubElement(categories, "category")
-        el.set("id", "1")
-        el.text = "Мебель"
-
-    base_by_id = {p["id"]: p for p in base_products}
-    rows = variants if variants else base_products
+        cname = attr_text(p, ATTR_CATEGORY).strip() or "Без категории"
+        if cname not in cat_num:
+            num = len(cat_num) + 1
+            cat_num[cname] = num
+            el = SubElement(categories, "category")
+            el.set("id", str(num))
+            el.text = cname
 
     offers = SubElement(shop, "offers")
-    for idx, obj in enumerate(rows, 1):
-        if variants:
-            parent_id = obj.get("product", {}).get("meta", {}).get("href", "").split("/")[-1]
-            base = base_by_id.get(parent_id, {})
-        else:
-            base = obj
-            parent_id = obj["id"]
+    counter = 0
+    skipped_no_photo = 0
 
-        folder = base.get("productFolder")
-        cat_id = str(cat_num.get(folder["meta"]["href"], 1)) if folder else "1"
+    for base in base_products:
+        parent_id = base["id"]
+        base_name = base.get("name", "")
+        article   = base.get("article") or ""
+        art       = "".join(c for c in (article or "id") if c.isalnum()) or "id"
+        cname     = attr_text(base, ATTR_CATEGORY).strip() or "Без категории"
+        cat_id    = str(cat_num.get(cname, 1))
+        # описание из поля «Описание для 2gis», без переносов строк (2ГИС их не допускает)
+        desc      = " ".join(attr_text(base, ATTR_DESCRIPTION).split())
 
-        # offer id: только цифры/латиница, ≤20 символов (требование YML)
-        art = "".join(c for c in (base.get("article") or "id") if c.isalnum()) or "id"
-        offer_id = f"{art}{idx}"[:20]
+        # Модификации с фото → каждая отдельным оффером (без фото — пропускаем)
+        entries = []  # (объект-для-цены/имени, картинки)
+        for v in get_variants(parent_id):
+            imgs = download_images(v["id"], v.get("name", ""), out_dir, "variant")
+            if imgs:
+                entries.append((v, imgs))
 
-        offer = SubElement(offers, "offer")
-        offer.set("id", offer_id)
-        offer.set("available", "true")
+        # Если ни у одной модификации нет фото — берём родительский товар с его фото
+        if not entries:
+            pimgs = download_images(parent_id, base_name, out_dir, "product")
+            if pimgs:
+                entries = [(base, pimgs)]
+            else:
+                print(f"  ⚠ Пропуск (нет фото ни у модификаций, ни у товара): {base_name}")
+                skipped_no_photo += 1
+                continue
 
-        SubElement(offer, "name").text       = obj.get("name", "—")
-        SubElement(offer, "url").text        = f"{SHOP_URL}/product/{parent_id}"
-        SubElement(offer, "currencyId").text = CURRENCY
-        SubElement(offer, "categoryId").text = cat_id
+        for obj, imgs in entries:
+            counter += 1
+            price = get_sale_price(obj) or get_sale_price(base)
+            add_offer(
+                offers,
+                offer_id=f"{art}{counter}"[:20],
+                name=obj.get("name", base_name),
+                parent_id=parent_id,
+                cat_id=cat_id,
+                price=price,
+                article=article,
+                desc=desc,
+                images=imgs,
+            )
 
-        price = get_sale_price(obj) or get_sale_price(base)
-        if price:
-            SubElement(offer, "price").text = str(int(price))
-        if base.get("article"):
-            SubElement(offer, "vendorCode").text = base["article"]
-        if base.get("description"):
-            # 2ГИС не допускает переносы строк в описании — схлопываем в один абзац
-            desc = " ".join(base["description"].split())
-            SubElement(offer, "description").text = desc
-
-        # Фото: сначала из модификации, иначе из базового товара
-        images = download_images(obj["id"], obj.get("name", ""), out_dir, "variant") if variants else []
-        if not images:
-            images = download_images(parent_id, base.get("name", ""), out_dir, "product")
-        for img_url in images:
-            SubElement(offer, "picture").text = img_url
+    print(f"Офферов в фиде: {counter}; пропущено без фото: {skipped_no_photo}")
 
     raw = tostring(catalog, encoding="unicode")
     dom = minidom.parseString(f'<?xml version="1.0" encoding="UTF-8"?>{raw}')
@@ -209,26 +259,29 @@ def build_yml(base_products: list[dict], variants: list[dict], out_dir: str) -> 
 
 
 if __name__ == "__main__":
-    articles = os.getenv("ARTICLES", ",".join(DEFAULT_ARTICLES)).split(",")
-    articles = [a.strip() for a in articles if a.strip()]
+    # По умолчанию берём ВСЕ товары и фильтруем по флагу «Выгружать 2gis».
+    # ARTICLES (необязательно) — сузить до конкретных артикулов (для тестов).
+    articles_env = os.getenv("ARTICLES", "").strip()
+    if articles_env:
+        arts = [a.strip() for a in articles_env.split(",") if a.strip()]
+        print(f"Фильтр по артикулам: {arts}")
+        all_products = get_products(arts)
+    else:
+        print("Загружаю все товары из МойСклад…")
+        all_products = get_all_products()
+    print(f"Всего товаров получено: {len(all_products)}")
 
-    print(f"Запрашиваю товары: {articles}")
-    base_products = get_products(articles)
-    print(f"Найдено базовых товаров: {len(base_products)}")
+    base_products = [p for p in all_products if attr_flag(p, ATTR_EXPORT_FLAG)]
+    print(f"С флагом «{ATTR_EXPORT_FLAG}»: {len(base_products)}")
 
     if not base_products:
-        raise SystemExit("Товары не найдены — прерываю")
+        raise SystemExit("Нет товаров с флагом выгрузки — прерываю")
 
-    variants = []
-    for base in base_products:
-        variants.extend(get_variants(base["id"]))
-    print(f"Найдено модификаций: {len(variants)}")
-
-    out = os.getenv("OUTPUT_FILE", "feed.yml")
+    out = os.getenv("OUTPUT_FILE", "feed.xml")
     out_dir = os.path.dirname(out) or "."
     os.makedirs(out_dir, exist_ok=True)
 
-    yml = build_yml(base_products, variants, out_dir)
+    yml = build_yml(base_products, out_dir)
     with open(out, "w", encoding="utf-8") as f:
         f.write(yml)
 
