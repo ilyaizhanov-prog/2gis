@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-06-28 14:16">
+<yml_catalog date="2026-06-28 14:59">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -9,7 +9,7 @@
       <currency id="KZT" rate="1"/>
     </currencies>
     <categories>
-      <category id="1">Pegasus</category>
+      <category id="1">Столы шпонированные</category>
     </categories>
     <offers>
       <offer id="g10071" available="true">
