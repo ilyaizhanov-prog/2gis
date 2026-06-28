@@ -28,7 +28,7 @@ jobs:
         env:
           MOYSKLAD_TOKEN: ${{ secrets.MOYSKLAD_TOKEN }}
           ARTICLES: "g1007"
-          OUTPUT_FILE: "public/feed.yml"
+          OUTPUT_FILE: "public/feed.xml"
         run: |
           mkdir -p public
           python generate_feed.py
