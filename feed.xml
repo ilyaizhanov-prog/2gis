@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-07-04 17:45">
+<yml_catalog date="2026-07-04 15:45">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -10,6 +10,7 @@
     </currencies>
     <categories>
       <category id="1">Столы шпонированные</category>
+      <category id="2">Без категории</category>
     </categories>
     <offers>
       <offer id="g10071" available="true">
@@ -56,6 +57,90 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%20%D0%A8%D0%9F%D0%9E%D0%9D%2080120170%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%20%D0%A8%D0%9F%D0%9E%D0%9D%2080120170%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%20%D0%A8%D0%9F%D0%9E%D0%9D%2080120170%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_6.png</picture>
+      </offer>
+      <offer id="g10084" available="true">
+        <name>Стол Pegasus 1400 ШПОН (85/140/190, светлый орех, светлый орех)</name>
+        <url>https://example.com/product/ab46522e-5ed5-11ef-0a80-0e5b000c6a5d</url>
+        <currencyId>KZT</currencyId>
+        <categoryId>2</categoryId>
+        <price>105000</price>
+        <vendorCode>g1008</vendorCode>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_1.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_2.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_3.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_4.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_5.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_6.png</picture>
+      </offer>
+      <offer id="g10085" available="true">
+        <name>Стол Pegasus 1400 ШПОН (85/140/190, темный орех, темный орех)</name>
+        <url>https://example.com/product/ab46522e-5ed5-11ef-0a80-0e5b000c6a5d</url>
+        <currencyId>KZT</currencyId>
+        <categoryId>2</categoryId>
+        <price>105000</price>
+        <vendorCode>g1008</vendorCode>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_1.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_2.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_3.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_4.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_5.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_6.png</picture>
+      </offer>
+      <offer id="g10096" available="true">
+        <name>Стол Pegasus 1600 ШПОН (90/160/200, светлый орех, светлый орех)</name>
+        <url>https://example.com/product/cf58f262-5ed5-11ef-0a80-0764000bf4df</url>
+        <currencyId>KZT</currencyId>
+        <categoryId>2</categoryId>
+        <price>110000</price>
+        <vendorCode>g1009</vendorCode>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_1.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_2.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_3.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_4.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_5.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_6.png</picture>
+      </offer>
+      <offer id="g10097" available="true">
+        <name>Стол Pegasus 1600 ШПОН (90/160/200, темный орех, темный орех)</name>
+        <url>https://example.com/product/cf58f262-5ed5-11ef-0a80-0764000bf4df</url>
+        <currencyId>KZT</currencyId>
+        <categoryId>2</categoryId>
+        <price>110000</price>
+        <vendorCode>g1009</vendorCode>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_1.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_2.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_3.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_4.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_5.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_6.png</picture>
+      </offer>
+      <offer id="g10108" available="true">
+        <name>Стол Pegasus 1200 (80/120/170, белый, белый)</name>
+        <url>https://example.com/product/d0ab92cf-5ed6-11ef-0a80-1910000c3f21</url>
+        <currencyId>KZT</currencyId>
+        <categoryId>2</categoryId>
+        <price>85000</price>
+        <vendorCode>g1010</vendorCode>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%2080120170%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_1.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%2080120170%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_2.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%2080120170%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_3.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%2080120170%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_4.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%2080120170%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_5.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%2080120170%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_6.png</picture>
+      </offer>
+      <offer id="g10119" available="true">
+        <name>Стол Pegasus 1400 (85/140/190, черный, белый)</name>
+        <url>https://example.com/product/ed94e534-5ed6-11ef-0a80-1910000c46ed</url>
+        <currencyId>KZT</currencyId>
+        <categoryId>2</categoryId>
+        <price>90000</price>
+        <vendorCode>g1011</vendorCode>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%2085140190%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_1.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%2085140190%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_2.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%2085140190%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_3.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%2085140190%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_4.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%2085140190%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_5.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%2085140190%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_6.png</picture>
       </offer>
     </offers>
   </shop>
