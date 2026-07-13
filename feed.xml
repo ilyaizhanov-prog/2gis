@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-07-13 19:44">
+<yml_catalog date="2026-07-13 20:09">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -482,6 +482,7 @@
         <url>https://example.com/product/5b2963b7-7ea6-11f1-0a80-014a002fd901</url>
         <currencyId>KZT</currencyId>
         <categoryId>3</categoryId>
+        <price>105000</price>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B5%D0%B3%D0%B0%20%D0%BE%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%2090140180%20%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D1%81%D0%BA%D0%B8%D0%B9_1.png</picture>
       </offer>
       <offer id="id45" available="true">
@@ -489,6 +490,7 @@
         <url>https://example.com/product/5b2963b7-7ea6-11f1-0a80-014a002fd901</url>
         <currencyId>KZT</currencyId>
         <categoryId>3</categoryId>
+        <price>105000</price>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B5%D0%B3%D0%B0%20%D0%BE%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%2090140180%20%D0%B4%D1%83%D0%B1%20%D0%BA%D0%B0%D0%BD%D1%82%D1%80%D0%B8_1.png</picture>
       </offer>
       <offer id="id46" available="true">
@@ -728,7 +730,7 @@
         <url>https://example.com/product/88bae5b3-4600-11f0-0a80-0e16001240d4</url>
         <currencyId>KZT</currencyId>
         <categoryId>1</categoryId>
-        <price>41000</price>
+        <price>75000</price>
         <vendorCode>g112</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%BE%D0%BB%D0%BE%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F%20%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%BE%D0%BB%D0%BE%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F%20%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_2.png</picture>
@@ -741,7 +743,7 @@
         <url>https://example.com/product/88bae5b3-4600-11f0-0a80-0e16001240d4</url>
         <currencyId>KZT</currencyId>
         <categoryId>1</categoryId>
-        <price>41000</price>
+        <price>75000</price>
         <vendorCode>g112</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%BE%D0%BB%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F%20%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%BE%D0%BB%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F%20%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_2.png</picture>
