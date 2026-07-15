@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-07-15 04:36">
+<yml_catalog date="2026-07-15 07:03">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -1020,20 +1020,20 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20Forest-1_5.png</picture>
       </offer>
       <offer id="N00193" available="true">
-        <name>Стул Палермо (дерево, izmir-9, ПОЛУБАРНЫЙ)</name>
+        <name>Стул Палермо (ПОЛУБАРНЫЙ, дерево, izmir-9)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
         <categoryId>1</categoryId>
         <price>35000</price>
         <vendorCode>N001</vendorCode>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20izmir-9%20%D0%9F%D0%9E%D0%9B%D0%A3%D0%91%D0%90%D0%A0%D0%9D%D0%AB%D0%99_1.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%9F%D0%9E%D0%9B%D0%A3%D0%91%D0%90%D0%A0%D0%9D%D0%AB%D0%99%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20izmir-9_1.png</picture>
       </offer>
       <offer id="N00194" available="true">
         <name>Стул Палермо (izmir-2, ПОЛУБАРНЫЙ, дерево)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
         <categoryId>1</categoryId>
-        <price>35000</price>
+        <price>55000</price>
         <vendorCode>N001</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20izmir-2%20%D0%9F%D0%9E%D0%9B%D0%A3%D0%91%D0%90%D0%A0%D0%9D%D0%AB%D0%99%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE_1.png</picture>
       </offer>
@@ -1064,13 +1064,13 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Forest-3_5.png</picture>
       </offer>
       <offer id="N00197" available="true">
-        <name>Стул Палермо (дерево, jasmine 010, ПОЛУБАРНЫЙ)</name>
+        <name>Стул Палермо (ПОЛУБАРНЫЙ, дерево, jasmine 010)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
         <categoryId>1</categoryId>
         <price>35000</price>
         <vendorCode>N001</vendorCode>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20jasmine%20010%20%D0%9F%D0%9E%D0%9B%D0%A3%D0%91%D0%90%D0%A0%D0%9D_1.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%9F%D0%9E%D0%9B%D0%A3%D0%91%D0%90%D0%A0%D0%9D%D0%AB%D0%99%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20jasmine%200_1.png</picture>
       </offer>
       <offer id="N00198" available="true">
         <name>Стул Палермо (дерево, Forest-13)</name>
