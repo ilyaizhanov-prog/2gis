@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-07-21 18:05">
+<yml_catalog date="2026-07-21 20:10">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -475,8 +475,17 @@
         <vendorCode>40-659</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%98%D1%80%D0%B8%D1%81%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%98%D1%80%D0%B8%D1%81%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_2.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%98%D1%80%D0%B8%D1%81%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_3.png</picture>
       </offer>
       <offer id="id44" available="true">
+        <name>Стол Вега овальный (90/140/180, америкаский орех)</name>
+        <url>https://example.com/product/5b2963b7-7ea6-11f1-0a80-014a002fd901</url>
+        <currencyId>KZT</currencyId>
+        <categoryId>3</categoryId>
+        <price>105000</price>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B5%D0%B3%D0%B0%20%D0%BE%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%2090140180%20%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D1%81%D0%BA%D0%B8%D0%B9_1.png</picture>
+      </offer>
+      <offer id="id45" available="true">
         <name>Стол Вега овальный (90/140/180, дуб кантри)</name>
         <url>https://example.com/product/5b2963b7-7ea6-11f1-0a80-014a002fd901</url>
         <currencyId>KZT</currencyId>
@@ -484,7 +493,7 @@
         <price>105000</price>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B5%D0%B3%D0%B0%20%D0%BE%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%2090140180%20%D0%B4%D1%83%D0%B1%20%D0%BA%D0%B0%D0%BD%D1%82%D1%80%D0%B8_1.png</picture>
       </offer>
-      <offer id="id45" available="true">
+      <offer id="id46" available="true">
         <name>Стул Бремен</name>
         <url>https://example.com/product/5eb54957-36fa-11f1-0a80-1c840026e15e</url>
         <currencyId>KZT</currencyId>
@@ -492,7 +501,7 @@
         <price>55000</price>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%91%D1%80%D0%B5%D0%BC%D0%B5%D0%BD_1.png</picture>
       </offer>
-      <offer id="4068346" available="true">
+      <offer id="4068347" available="true">
         <name>Стул Ария (желтый)</name>
         <url>https://example.com/product/634cf0a2-62e5-11ef-0a80-03fa002c4732</url>
         <currencyId>KZT</currencyId>
@@ -503,7 +512,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%90%D1%80%D0%B8%D1%8F%20%D0%B6%D0%B5%D0%BB%D1%82%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%90%D1%80%D0%B8%D1%8F%20%D0%B6%D0%B5%D0%BB%D1%82%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="4068347" available="true">
+      <offer id="4068348" available="true">
         <name>Стул Ария (зеленый)</name>
         <url>https://example.com/product/634cf0a2-62e5-11ef-0a80-03fa002c4732</url>
         <currencyId>KZT</currencyId>
@@ -514,7 +523,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%90%D1%80%D0%B8%D1%8F%20%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%90%D1%80%D0%B8%D1%8F%20%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="id48" available="true">
+      <offer id="id49" available="true">
         <name>Стул Марс (белый)</name>
         <url>https://example.com/product/635c6811-330f-11f0-0a80-0110002f76df</url>
         <currencyId>KZT</currencyId>
@@ -524,7 +533,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9C%D0%B0%D1%80%D1%81%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9C%D0%B0%D1%80%D1%81%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="id49" available="true">
+      <offer id="id50" available="true">
         <name>Стул Марс (капучино)</name>
         <url>https://example.com/product/635c6811-330f-11f0-0a80-0110002f76df</url>
         <currencyId>KZT</currencyId>
@@ -534,7 +543,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9C%D0%B0%D1%80%D1%81%20%D0%BA%D0%B0%D0%BF%D1%83%D1%87%D0%B8%D0%BD%D0%BE_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9C%D0%B0%D1%80%D1%81%20%D0%BA%D0%B0%D0%BF%D1%83%D1%87%D0%B8%D0%BD%D0%BE_3.png</picture>
       </offer>
-      <offer id="id50" available="true">
+      <offer id="id51" available="true">
         <name>Стул Марс (черный)</name>
         <url>https://example.com/product/635c6811-330f-11f0-0a80-0110002f76df</url>
         <currencyId>KZT</currencyId>
@@ -544,7 +553,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9C%D0%B0%D1%80%D1%81%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9C%D0%B0%D1%80%D1%81%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="id51" available="true">
+      <offer id="id52" available="true">
         <name>Стол Лаунж (Дуб Вотан)</name>
         <url>https://example.com/product/690cb1b5-331c-11f0-0a80-161e002f0d6f</url>
         <currencyId>KZT</currencyId>
@@ -552,7 +561,7 @@
         <price>75000</price>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B0%D1%83%D0%BD%D0%B6%20%D0%94%D1%83%D0%B1%20%D0%92%D0%BE%D1%82%D0%B0%D0%BD_1.png</picture>
       </offer>
-      <offer id="id52" available="true">
+      <offer id="id53" available="true">
         <name>Стол Praga (светлый орех)</name>
         <url>https://example.com/product/7706c08d-d8df-11f0-0a80-0cfb00214de8</url>
         <currencyId>KZT</currencyId>
@@ -560,7 +569,7 @@
         <price>230000</price>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Praga%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85_1.png</picture>
       </offer>
-      <offer id="id53" available="true">
+      <offer id="id54" available="true">
         <name>Стол Praga (темный орех)</name>
         <url>https://example.com/product/7706c08d-d8df-11f0-0a80-0cfb00214de8</url>
         <currencyId>KZT</currencyId>
@@ -568,7 +577,7 @@
         <price>230000</price>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Praga%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85_1.png</picture>
       </offer>
-      <offer id="id54" available="true">
+      <offer id="id55" available="true">
         <name>Стул Лацио (светлое дерево, Fantasy hich 004)</name>
         <url>https://example.com/product/7dbf2d23-6470-11f0-0a80-1a120015af7a</url>
         <currencyId>KZT</currencyId>
@@ -580,7 +589,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B0%D1%86%D0%B8%D0%BE%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Fantasy%20hich%200_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B0%D1%86%D0%B8%D0%BE%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Fantasy%20hich%200_5.png</picture>
       </offer>
-      <offer id="id55" available="true">
+      <offer id="id56" available="true">
         <name>Стул Лацио (светлое дерево, Fantasy hich 009)</name>
         <url>https://example.com/product/7dbf2d23-6470-11f0-0a80-1a120015af7a</url>
         <currencyId>KZT</currencyId>
@@ -592,7 +601,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B0%D1%86%D0%B8%D0%BE%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Fantasy%20hich%200_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B0%D1%86%D0%B8%D0%BE%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Fantasy%20hich%200_5.png</picture>
       </offer>
-      <offer id="id56" available="true">
+      <offer id="id57" available="true">
         <name>Стул Лацио (светлое дерево, Fantasy hich 010)</name>
         <url>https://example.com/product/7dbf2d23-6470-11f0-0a80-1a120015af7a</url>
         <currencyId>KZT</currencyId>
@@ -604,7 +613,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B0%D1%86%D0%B8%D0%BE%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Fantasy%20hich%200_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B0%D1%86%D0%B8%D0%BE%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Fantasy%20hich%200_5.png</picture>
       </offer>
-      <offer id="4062557" available="true">
+      <offer id="4062558" available="true">
         <name>Стул Классик (капучино)</name>
         <url>https://example.com/product/7e658780-62c3-11ef-0a80-1920002f123a</url>
         <currencyId>KZT</currencyId>
@@ -615,7 +624,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%BA%D0%B0%D0%BF%D1%83%D1%87%D0%B8%D0%BD%D0%BE_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D0%BA%D0%B0%D0%BF%D1%83%D1%87%D0%B8%D0%BD%D0%BE_3.png</picture>
       </offer>
-      <offer id="4062558" available="true">
+      <offer id="4062559" available="true">
         <name>Стул Классик (тиффани)</name>
         <url>https://example.com/product/7e658780-62c3-11ef-0a80-1920002f123a</url>
         <currencyId>KZT</currencyId>
@@ -626,7 +635,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D1%82%D0%B8%D1%84%D1%84%D0%B0%D0%BD%D0%B8_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%20%D1%82%D0%B8%D1%84%D1%84%D0%B0%D0%BD%D0%B8_3.png</picture>
       </offer>
-      <offer id="lev00259" available="true">
+      <offer id="lev00260" available="true">
         <name>Стол Пегас 90/160/200 (белый, белый)</name>
         <url>https://example.com/product/7e7d1726-5ede-11ef-0a80-0ba7000f3359</url>
         <currencyId>KZT</currencyId>
@@ -638,7 +647,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9F%D0%B5%D0%B3%D0%B0%D1%81%2090160200%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_3.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9F%D0%B5%D0%B3%D0%B0%D1%81%2090160200%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_4.png</picture>
       </offer>
-      <offer id="lev00260" available="true">
+      <offer id="lev00261" available="true">
         <name>Стол Пегас 90/160/200 (венге, венге)</name>
         <url>https://example.com/product/7e7d1726-5ede-11ef-0a80-0ba7000f3359</url>
         <currencyId>KZT</currencyId>
@@ -647,7 +656,7 @@
         <vendorCode>lev002</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9F%D0%B5%D0%B3%D0%B0%D1%81%2090160200%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5_1.png</picture>
       </offer>
-      <offer id="lev00261" available="true">
+      <offer id="lev00262" available="true">
         <name>Стол Пегас 90/160/200 (орех, орех)</name>
         <url>https://example.com/product/7e7d1726-5ede-11ef-0a80-0ba7000f3359</url>
         <currencyId>KZT</currencyId>
@@ -656,7 +665,7 @@
         <vendorCode>lev002</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9F%D0%B5%D0%B3%D0%B0%D1%81%2090160200%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%BE%D1%80%D0%B5%D1%85_1.png</picture>
       </offer>
-      <offer id="lev00262" available="true">
+      <offer id="lev00263" available="true">
         <name>Стол Пегас 90/160/200 (слоновая кость, слоновая кость)</name>
         <url>https://example.com/product/7e7d1726-5ede-11ef-0a80-0ba7000f3359</url>
         <currencyId>KZT</currencyId>
@@ -665,7 +674,7 @@
         <vendorCode>lev002</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9F%D0%B5%D0%B3%D0%B0%D1%81%2090160200%20%D1%81%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%BB%D0%BE%D0%BD%D0%BE_1.png</picture>
       </offer>
-      <offer id="id63" available="true">
+      <offer id="id64" available="true">
         <name>Стул Мэт (венге)</name>
         <url>https://example.com/product/7fa0e8ba-330f-11f0-0a80-09e0002da3cd</url>
         <currencyId>KZT</currencyId>
@@ -674,7 +683,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9C%D1%8D%D1%82%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9C%D1%8D%D1%82%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5_3.png</picture>
       </offer>
-      <offer id="g101464" available="true">
+      <offer id="g101465" available="true">
         <name>Стол Андромеда (светлый орех, белый)</name>
         <url>https://example.com/product/836c0be3-5ed7-11ef-0a80-04ae000cc893</url>
         <currencyId>KZT</currencyId>
@@ -688,7 +697,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B5%D0%B4%D0%B0%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B5%D0%B4%D0%B0%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_6.png</picture>
       </offer>
-      <offer id="g101465" available="true">
+      <offer id="g101466" available="true">
         <name>Стол Андромеда (белый, белый)</name>
         <url>https://example.com/product/836c0be3-5ed7-11ef-0a80-04ae000cc893</url>
         <currencyId>KZT</currencyId>
@@ -702,7 +711,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B5%D0%B4%D0%B0%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B5%D0%B4%D0%B0%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_6.png</picture>
       </offer>
-      <offer id="g101466" available="true">
+      <offer id="g101467" available="true">
         <name>Стол Андромеда (черный, белый)</name>
         <url>https://example.com/product/836c0be3-5ed7-11ef-0a80-04ae000cc893</url>
         <currencyId>KZT</currencyId>
@@ -716,7 +725,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B5%D0%B4%D0%B0%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B5%D0%B4%D0%B0%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_6.png</picture>
       </offer>
-      <offer id="g11267" available="true">
+      <offer id="g11268" available="true">
         <name>Стул Поло (светлый орех, заказная ткань)</name>
         <url>https://example.com/product/88bae5b3-4600-11f0-0a80-0e16001240d4</url>
         <currencyId>KZT</currencyId>
@@ -729,7 +738,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%BE%D0%BB%D0%BE%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F%20%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%BE%D0%BB%D0%BE%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F%20%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_5.png</picture>
       </offer>
-      <offer id="g11268" available="true">
+      <offer id="g11269" available="true">
         <name>Стул Поло (темный орех, заказная ткань)</name>
         <url>https://example.com/product/88bae5b3-4600-11f0-0a80-0e16001240d4</url>
         <currencyId>KZT</currencyId>
@@ -742,7 +751,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%BE%D0%BB%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F%20%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%BE%D0%BB%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BD%D0%B0%D1%8F%20%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_5.png</picture>
       </offer>
-      <offer id="4067369" available="true">
+      <offer id="4067370" available="true">
         <name>Стул Бриз (зеленый)</name>
         <url>https://example.com/product/89bce1ca-62e0-11ef-0a80-107d002b6b90</url>
         <currencyId>KZT</currencyId>
@@ -753,7 +762,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%91%D1%80%D0%B8%D0%B7%20%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%91%D1%80%D0%B8%D0%B7%20%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="4067370" available="true">
+      <offer id="4067371" available="true">
         <name>Стул Бриз (синий)</name>
         <url>https://example.com/product/89bce1ca-62e0-11ef-0a80-107d002b6b90</url>
         <currencyId>KZT</currencyId>
@@ -764,7 +773,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%91%D1%80%D0%B8%D0%B7%20%D1%81%D0%B8%D0%BD%D0%B8%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%91%D1%80%D0%B8%D0%B7%20%D1%81%D0%B8%D0%BD%D0%B8%D0%B9_3.png</picture>
       </offer>
-      <offer id="4067371" available="true">
+      <offer id="4067372" available="true">
         <name>Стул Бриз (фиолетовый)</name>
         <url>https://example.com/product/89bce1ca-62e0-11ef-0a80-107d002b6b90</url>
         <currencyId>KZT</currencyId>
@@ -775,7 +784,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%91%D1%80%D0%B8%D0%B7%20%D1%84%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%91%D1%80%D0%B8%D0%B7%20%D1%84%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="g100772" available="true">
+      <offer id="g100773" available="true">
         <name>Стол Pegasus 1200 ШПОН (80/120/170, дуб, дуб)</name>
         <url>https://example.com/product/8acfba78-5ed5-11ef-0a80-106e000c553a</url>
         <currencyId>KZT</currencyId>
@@ -790,7 +799,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%20%D0%A8%D0%9F%D0%9E%D0%9D%2080120170%20%D0%B4%D1%83%D0%B1%20%D0%B4%D1%83%D0%B1_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%20%D0%A8%D0%9F%D0%9E%D0%9D%2080120170%20%D0%B4%D1%83%D0%B1%20%D0%B4%D1%83%D0%B1_6.png</picture>
       </offer>
-      <offer id="g100773" available="true">
+      <offer id="g100774" available="true">
         <name>Стол Pegasus 1200 ШПОН (80/120/170, светлый орех, светлый орех)</name>
         <url>https://example.com/product/8acfba78-5ed5-11ef-0a80-106e000c553a</url>
         <currencyId>KZT</currencyId>
@@ -805,7 +814,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%20%D0%A8%D0%9F%D0%9E%D0%9D%2080120170%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%20%D0%A8%D0%9F%D0%9E%D0%9D%2080120170%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_6.png</picture>
       </offer>
-      <offer id="g100774" available="true">
+      <offer id="g100775" available="true">
         <name>Стол Pegasus 1200 ШПОН (80/120/170, темный орех, темный орех)</name>
         <url>https://example.com/product/8acfba78-5ed5-11ef-0a80-106e000c553a</url>
         <currencyId>KZT</currencyId>
@@ -820,7 +829,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%20%D0%A8%D0%9F%D0%9E%D0%9D%2080120170%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%20%D0%A8%D0%9F%D0%9E%D0%9D%2080120170%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_6.png</picture>
       </offer>
-      <offer id="4062675" available="true">
+      <offer id="4062676" available="true">
         <name>Стул Наполеон (белый)</name>
         <url>https://example.com/product/91bab9b4-62ed-11ef-0a80-0bb3002baae6</url>
         <currencyId>KZT</currencyId>
@@ -831,7 +840,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="4062676" available="true">
+      <offer id="4062677" available="true">
         <name>Стул Наполеон (серый)</name>
         <url>https://example.com/product/91bab9b4-62ed-11ef-0a80-0bb3002baae6</url>
         <currencyId>KZT</currencyId>
@@ -842,7 +851,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="id77" available="true">
+      <offer id="id78" available="true">
         <name>Стол Лаунж (Дуб Канадский)</name>
         <url>https://example.com/product/99f5637d-331c-11f0-0a80-161e002f1120</url>
         <currencyId>KZT</currencyId>
@@ -850,14 +859,14 @@
         <price>75000</price>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B0%D1%83%D0%BD%D0%B6%20%D0%94%D1%83%D0%B1%20%D0%9A%D0%B0%D0%BD%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_1.png</picture>
       </offer>
-      <offer id="id78" available="true">
+      <offer id="id79" available="true">
         <name>Стол Овьедо</name>
         <url>https://example.com/product/9eb7368f-ba25-11f0-0a80-091a003aee82</url>
         <currencyId>KZT</currencyId>
         <categoryId>6</categoryId>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9E%D0%B2%D1%8C%D0%B5%D0%B4%D0%BE_1.png</picture>
       </offer>
-      <offer id="4067579" available="true">
+      <offer id="4067580" available="true">
         <name>Стул Лора (черный)</name>
         <url>https://example.com/product/a44dbe83-62e1-11ef-0a80-11d8002afc0a</url>
         <currencyId>KZT</currencyId>
@@ -868,7 +877,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%BE%D1%80%D0%B0%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%BE%D1%80%D0%B0%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="4066980" available="true">
+      <offer id="4066981" available="true">
         <name>Стул Лукас (белый)</name>
         <url>https://example.com/product/a461df21-62e3-11ef-0a80-0bb3002af2bd</url>
         <currencyId>KZT</currencyId>
@@ -879,7 +888,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D1%83%D0%BA%D0%B0%D1%81%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D1%83%D0%BA%D0%B0%D1%81%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="4066981" available="true">
+      <offer id="4066982" available="true">
         <name>Стул Лукас (черный)</name>
         <url>https://example.com/product/a461df21-62e3-11ef-0a80-0bb3002af2bd</url>
         <currencyId>KZT</currencyId>
@@ -890,7 +899,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D1%83%D0%BA%D0%B0%D1%81%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D1%83%D0%BA%D0%B0%D1%81%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="lev01782" available="true">
+      <offer id="lev01783" available="true">
         <name>Стул Сицилия (дуб, твердая сидушка)</name>
         <url>https://example.com/product/a731bbaa-5ee6-11ef-0a80-028700104d94</url>
         <currencyId>KZT</currencyId>
@@ -901,7 +910,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D0%B8%D1%86%D0%B8%D0%BB%D0%B8%D1%8F%20%D0%B4%D1%83%D0%B1%20%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B0%D1%8F%20%D1%81%D0%B8%D0%B4%D1%83%D1%88%D0%BA%D0%B0_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D0%B8%D1%86%D0%B8%D0%BB%D0%B8%D1%8F%20%D0%B4%D1%83%D0%B1%20%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B0%D1%8F%20%D1%81%D0%B8%D0%B4%D1%83%D1%88%D0%BA%D0%B0_3.png</picture>
       </offer>
-      <offer id="lev01783" available="true">
+      <offer id="lev01784" available="true">
         <name>Стул Сицилия (дуб, Обивка №4)</name>
         <url>https://example.com/product/a731bbaa-5ee6-11ef-0a80-028700104d94</url>
         <currencyId>KZT</currencyId>
@@ -911,7 +920,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D0%B8%D1%86%D0%B8%D0%BB%D0%B8%D1%8F%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D0%B8%D1%86%D0%B8%D0%BB%D0%B8%D1%8F%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
       </offer>
-      <offer id="lev01784" available="true">
+      <offer id="lev01785" available="true">
         <name>Стул Сицилия (черный, черный)</name>
         <url>https://example.com/product/a731bbaa-5ee6-11ef-0a80-028700104d94</url>
         <currencyId>KZT</currencyId>
@@ -922,7 +931,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D0%B8%D1%86%D0%B8%D0%BB%D0%B8%D1%8F%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D0%B8%D1%86%D0%B8%D0%BB%D0%B8%D1%8F%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="lev01785" available="true">
+      <offer id="lev01786" available="true">
         <name>Стул Сицилия (белый, обивка №10)</name>
         <url>https://example.com/product/a731bbaa-5ee6-11ef-0a80-028700104d94</url>
         <currencyId>KZT</currencyId>
@@ -932,7 +941,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D0%B8%D1%86%D0%B8%D0%BB%D0%B8%D1%8F%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D0%B8%D1%86%D0%B8%D0%BB%D0%B8%D1%8F%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_2.png</picture>
       </offer>
-      <offer id="lev01786" available="true">
+      <offer id="lev01787" available="true">
         <name>Стул Сицилия (белый, твердая сидушка)</name>
         <url>https://example.com/product/a731bbaa-5ee6-11ef-0a80-028700104d94</url>
         <currencyId>KZT</currencyId>
@@ -943,7 +952,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D0%B8%D1%86%D0%B8%D0%BB%D0%B8%D1%8F%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B0%D1%8F%20%D1%81%D0%B8%D0%B4%D1%83%D1%88%D0%BA%D0%B0_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D0%B8%D1%86%D0%B8%D0%BB%D0%B8%D1%8F%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B0%D1%8F%20%D1%81%D0%B8%D0%B4%D1%83%D1%88%D0%BA%D0%B0_3.png</picture>
       </offer>
-      <offer id="g100887" available="true">
+      <offer id="g100888" available="true">
         <name>Стол Pegasus 1400 ШПОН (85/140/190, светлый орех, светлый орех)</name>
         <url>https://example.com/product/ab46522e-5ed5-11ef-0a80-0e5b000c6a5d</url>
         <currencyId>KZT</currencyId>
@@ -957,7 +966,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_6.png</picture>
       </offer>
-      <offer id="g100888" available="true">
+      <offer id="g100889" available="true">
         <name>Стол Pegasus 1400 ШПОН (85/140/190, темный орех, темный орех)</name>
         <url>https://example.com/product/ab46522e-5ed5-11ef-0a80-0e5b000c6a5d</url>
         <currencyId>KZT</currencyId>
@@ -971,7 +980,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%20%D0%A8%D0%9F%D0%9E%D0%9D%2085140190%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_6.png</picture>
       </offer>
-      <offer id="N00189" available="true">
+      <offer id="N00190" available="true">
         <name>Стул Палермо (темное дерево, Anfora-04)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
@@ -984,7 +993,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Anfora-04_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Anfora-04_5.png</picture>
       </offer>
-      <offer id="N00190" available="true">
+      <offer id="N00191" available="true">
         <name>Стул Палермо (дерево, Anfora-27)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
@@ -997,7 +1006,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Anfora-27_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Anfora-27_5.png</picture>
       </offer>
-      <offer id="N00191" available="true">
+      <offer id="N00192" available="true">
         <name>Стул Палермо (черный, Forest-1)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
@@ -1010,7 +1019,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20Forest-1_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20Forest-1_5.png</picture>
       </offer>
-      <offer id="N00192" available="true">
+      <offer id="N00193" available="true">
         <name>Стул Палермо (ПОЛУБАРНЫЙ, дерево, izmir-9)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
@@ -1019,7 +1028,7 @@
         <vendorCode>N001</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%9F%D0%9E%D0%9B%D0%A3%D0%91%D0%90%D0%A0%D0%9D%D0%AB%D0%99%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20izmir-9_1.png</picture>
       </offer>
-      <offer id="N00193" available="true">
+      <offer id="N00194" available="true">
         <name>Стул Палермо (izmir-2, ПОЛУБАРНЫЙ, дерево)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
@@ -1028,7 +1037,7 @@
         <vendorCode>N001</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20izmir-2%20%D0%9F%D0%9E%D0%9B%D0%A3%D0%91%D0%90%D0%A0%D0%9D%D0%AB%D0%99%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE_1.png</picture>
       </offer>
-      <offer id="N00194" available="true">
+      <offer id="N00195" available="true">
         <name>Стул Палермо (дерево, Anfora-02)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
@@ -1041,7 +1050,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Anfora-02_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Anfora-02_5.png</picture>
       </offer>
-      <offer id="N00195" available="true">
+      <offer id="N00196" available="true">
         <name>Стул Палермо (дерево, Forest-3)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
@@ -1054,7 +1063,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Forest-3_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Forest-3_5.png</picture>
       </offer>
-      <offer id="N00196" available="true">
+      <offer id="N00197" available="true">
         <name>Стул Палермо (ПОЛУБАРНЫЙ, дерево, jasmine 010)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
@@ -1063,7 +1072,7 @@
         <vendorCode>N001</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%9F%D0%9E%D0%9B%D0%A3%D0%91%D0%90%D0%A0%D0%9D%D0%AB%D0%99%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20jasmine%200_1.png</picture>
       </offer>
-      <offer id="N00197" available="true">
+      <offer id="N00198" available="true">
         <name>Стул Палермо (дерево, Forest-13)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
@@ -1076,7 +1085,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Forest-13_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Forest-13_5.png</picture>
       </offer>
-      <offer id="N00198" available="true">
+      <offer id="N00199" available="true">
         <name>Стул Палермо (дерево, Forest-2)</name>
         <url>https://example.com/product/ac3d08e9-6221-11ef-0a80-19200028b786</url>
         <currencyId>KZT</currencyId>
@@ -1089,7 +1098,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Forest-2_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Forest-2_5.png</picture>
       </offer>
-      <offer id="4063099" available="true">
+      <offer id="40630100" available="true">
         <name>Стул Опера (черный)</name>
         <url>https://example.com/product/b1572251-62df-11ef-0a80-107d002b5c3d</url>
         <currencyId>KZT</currencyId>
@@ -1100,7 +1109,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="40607100" available="true">
+      <offer id="40607101" available="true">
         <name>Стул Мио (белый)</name>
         <url>https://example.com/product/b4f46892-62e2-11ef-0a80-11d8002b0e24</url>
         <currencyId>KZT</currencyId>
@@ -1111,7 +1120,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9C%D0%B8%D0%BE%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9C%D0%B8%D0%BE%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="40607101" available="true">
+      <offer id="40607102" available="true">
         <name>Стул Мио (черный)</name>
         <url>https://example.com/product/b4f46892-62e2-11ef-0a80-11d8002b0e24</url>
         <currencyId>KZT</currencyId>
@@ -1122,21 +1131,21 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9C%D0%B8%D0%BE%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9C%D0%B8%D0%BE%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="id102" available="true">
+      <offer id="id103" available="true">
         <name>Стол Моника (темный орех)</name>
         <url>https://example.com/product/b690900e-0266-11f0-0a80-15d50020fd6f</url>
         <currencyId>KZT</currencyId>
         <categoryId>5</categoryId>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9C%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85_1.png</picture>
       </offer>
-      <offer id="id103" available="true">
+      <offer id="id104" available="true">
         <name>Стол Моника (овальный)</name>
         <url>https://example.com/product/b690900e-0266-11f0-0a80-15d50020fd6f</url>
         <currencyId>KZT</currencyId>
         <categoryId>5</categoryId>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9C%D0%BE%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%BE%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_1.png</picture>
       </offer>
-      <offer id="lev010104" available="true">
+      <offer id="lev010105" available="true">
         <name>Стол Виконт 80/120/160 (белый, белый)</name>
         <url>https://example.com/product/bfbb1bf5-5edf-11ef-0a80-0595000f0fc6</url>
         <currencyId>KZT</currencyId>
@@ -1147,7 +1156,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%2080120160%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%2080120160%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="lev010105" available="true">
+      <offer id="lev010106" available="true">
         <name>Стол Виконт 80/120/160 (венге, венге)</name>
         <url>https://example.com/product/bfbb1bf5-5edf-11ef-0a80-0595000f0fc6</url>
         <currencyId>KZT</currencyId>
@@ -1159,7 +1168,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%2080120160%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5_3.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%2080120160%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5_4.png</picture>
       </offer>
-      <offer id="lev010106" available="true">
+      <offer id="lev010107" available="true">
         <name>Стол Виконт 80/120/160 (орех, орех)</name>
         <url>https://example.com/product/bfbb1bf5-5edf-11ef-0a80-0595000f0fc6</url>
         <currencyId>KZT</currencyId>
@@ -1171,7 +1180,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%2080120160%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%BE%D1%80%D0%B5%D1%85_3.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%2080120160%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%BE%D1%80%D0%B5%D1%85_4.png</picture>
       </offer>
-      <offer id="lev010107" available="true">
+      <offer id="lev010108" available="true">
         <name>Стол Виконт 80/120/160 (слоновая кость, слоновая кость)</name>
         <url>https://example.com/product/bfbb1bf5-5edf-11ef-0a80-0595000f0fc6</url>
         <currencyId>KZT</currencyId>
@@ -1183,14 +1192,14 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%2080120160%20%D1%81%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%BB%D0%BE%D0%BD_3.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%2080120160%20%D1%81%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D0%BE%D1%81%D1%82%D1%8C%20%D1%81%D0%BB%D0%BE%D0%BD_4.png</picture>
       </offer>
-      <offer id="id108" available="true">
+      <offer id="id109" available="true">
         <name>Стул Гамбург</name>
         <url>https://example.com/product/ce0e342d-6ed1-11f1-0a80-05fa003e6c69</url>
         <currencyId>KZT</currencyId>
         <categoryId>1</categoryId>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%93%D0%B0%D0%BC%D0%B1%D1%83%D1%80%D0%B3_1.png</picture>
       </offer>
-      <offer id="lev018109" available="true">
+      <offer id="lev018110" available="true">
         <name>Стул Виконт (белый, Обивка №4)</name>
         <url>https://example.com/product/ce612b30-5ee6-11ef-0a80-13b00010abed</url>
         <currencyId>KZT</currencyId>
@@ -1201,7 +1210,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
-      <offer id="lev018110" available="true">
+      <offer id="lev018111" available="true">
         <name>Стул Виконт (белый, обивка №10)</name>
         <url>https://example.com/product/ce612b30-5ee6-11ef-0a80-13b00010abed</url>
         <currencyId>KZT</currencyId>
@@ -1212,7 +1221,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_3.png</picture>
       </offer>
-      <offer id="lev018111" available="true">
+      <offer id="lev018112" available="true">
         <name>Стул Виконт (венге, обивка №10)</name>
         <url>https://example.com/product/ce612b30-5ee6-11ef-0a80-13b00010abed</url>
         <currencyId>KZT</currencyId>
@@ -1223,7 +1232,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_3.png</picture>
       </offer>
-      <offer id="lev018112" available="true">
+      <offer id="lev018113" available="true">
         <name>Стул Виконт (дуб, Обивка №4)</name>
         <url>https://example.com/product/ce612b30-5ee6-11ef-0a80-13b00010abed</url>
         <currencyId>KZT</currencyId>
@@ -1234,7 +1243,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
-      <offer id="lev018113" available="true">
+      <offer id="lev018114" available="true">
         <name>Стул Виконт (орех, Обивка №4)</name>
         <url>https://example.com/product/ce612b30-5ee6-11ef-0a80-13b00010abed</url>
         <currencyId>KZT</currencyId>
@@ -1245,7 +1254,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%92%D0%B8%D0%BA%D0%BE%D0%BD%D1%82%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
-      <offer id="g1009114" available="true">
+      <offer id="g1009115" available="true">
         <name>Стол Pegasus 1600 ШПОН (90/160/200, светлый орех, светлый орех)</name>
         <url>https://example.com/product/cf58f262-5ed5-11ef-0a80-0764000bf4df</url>
         <currencyId>KZT</currencyId>
@@ -1259,7 +1268,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_6.png</picture>
       </offer>
-      <offer id="g1009115" available="true">
+      <offer id="g1009116" available="true">
         <name>Стол Pegasus 1600 ШПОН (90/160/200, темный орех, темный орех)</name>
         <url>https://example.com/product/cf58f262-5ed5-11ef-0a80-0764000bf4df</url>
         <currencyId>KZT</currencyId>
@@ -1273,7 +1282,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201600%20%D0%A8%D0%9F%D0%9E%D0%9D%2090160200%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_6.png</picture>
       </offer>
-      <offer id="lev003116" available="true">
+      <offer id="lev003117" available="true">
         <name>Стол Пегас 85/140/190 бабочка (белый, белый)</name>
         <url>https://example.com/product/d03d7ed2-5ede-11ef-0a80-0764000ea957</url>
         <currencyId>KZT</currencyId>
@@ -1282,7 +1291,7 @@
         <vendorCode>lev003</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9F%D0%B5%D0%B3%D0%B0%D1%81%2085140190%20%D0%B1%D0%B0%D0%B1%D0%BE%D1%87%D0%BA%D0%B0%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_1.png</picture>
       </offer>
-      <offer id="g1010117" available="true">
+      <offer id="g1010118" available="true">
         <name>Стол Pegasus 1200 (80/120/170, белый, белый)</name>
         <url>https://example.com/product/d0ab92cf-5ed6-11ef-0a80-1910000c3f21</url>
         <currencyId>KZT</currencyId>
@@ -1296,7 +1305,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%2080120170%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201200%2080120170%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_6.png</picture>
       </offer>
-      <offer id="id118" available="true">
+      <offer id="id119" available="true">
         <name>Стул Прованс</name>
         <url>https://example.com/product/d2155962-3d74-11f0-0a80-09090013b1e0</url>
         <currencyId>KZT</currencyId>
@@ -1308,7 +1317,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%81_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%81_5.png</picture>
       </offer>
-      <offer id="lev015119" available="true">
+      <offer id="lev015120" available="true">
         <name>Стул Леон (белый, Обивка №4)</name>
         <url>https://example.com/product/d981b1d5-5ee5-11ef-0a80-04ae0010b24c</url>
         <currencyId>KZT</currencyId>
@@ -1319,7 +1328,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
-      <offer id="lev015120" available="true">
+      <offer id="lev015121" available="true">
         <name>Стул Леон (белый, мешковина)</name>
         <url>https://example.com/product/d981b1d5-5ee5-11ef-0a80-04ae0010b24c</url>
         <currencyId>KZT</currencyId>
@@ -1328,7 +1337,7 @@
         <vendorCode>lev015</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%BC%D0%B5%D1%88%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D0%B0_1.png</picture>
       </offer>
-      <offer id="lev015121" available="true">
+      <offer id="lev015122" available="true">
         <name>Стул Леон (белый, обивка №10)</name>
         <url>https://example.com/product/d981b1d5-5ee5-11ef-0a80-04ae0010b24c</url>
         <currencyId>KZT</currencyId>
@@ -1337,7 +1346,7 @@
         <vendorCode>lev015</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_1.png</picture>
       </offer>
-      <offer id="lev015122" available="true">
+      <offer id="lev015123" available="true">
         <name>Стул Леон (белый, тиффани)</name>
         <url>https://example.com/product/d981b1d5-5ee5-11ef-0a80-04ae0010b24c</url>
         <currencyId>KZT</currencyId>
@@ -1348,7 +1357,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%82%D0%B8%D1%84%D1%84%D0%B0%D0%BD%D0%B8_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%82%D0%B8%D1%84%D1%84%D0%B0%D0%BD%D0%B8_3.png</picture>
       </offer>
-      <offer id="lev015123" available="true">
+      <offer id="lev015124" available="true">
         <name>Стул Леон (венге, обивка №10)</name>
         <url>https://example.com/product/d981b1d5-5ee5-11ef-0a80-04ae0010b24c</url>
         <currencyId>KZT</currencyId>
@@ -1359,7 +1368,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_3.png</picture>
       </offer>
-      <offer id="lev015124" available="true">
+      <offer id="lev015125" available="true">
         <name>Стул Леон (дуб, Обивка №4)</name>
         <url>https://example.com/product/d981b1d5-5ee5-11ef-0a80-04ae0010b24c</url>
         <currencyId>KZT</currencyId>
@@ -1370,7 +1379,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
-      <offer id="lev015125" available="true">
+      <offer id="lev015126" available="true">
         <name>Стул Леон (орех, Обивка №4)</name>
         <url>https://example.com/product/d981b1d5-5ee5-11ef-0a80-04ae0010b24c</url>
         <currencyId>KZT</currencyId>
@@ -1381,7 +1390,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
-      <offer id="lev015126" available="true">
+      <offer id="lev015127" available="true">
         <name>Стул Леон (слоновая кость, Обивка №4)</name>
         <url>https://example.com/product/d981b1d5-5ee5-11ef-0a80-04ae0010b24c</url>
         <currencyId>KZT</currencyId>
@@ -1390,7 +1399,7 @@
         <vendorCode>lev015</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D1%81%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D0%BE%D1%81%D1%82%D1%8C%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_1.png</picture>
       </offer>
-      <offer id="lev015127" available="true">
+      <offer id="lev015128" available="true">
         <name>Стул Леон (белый, ромбик)</name>
         <url>https://example.com/product/d981b1d5-5ee5-11ef-0a80-04ae0010b24c</url>
         <currencyId>KZT</currencyId>
@@ -1401,7 +1410,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%80%D0%BE%D0%BC%D0%B1%D0%B8%D0%BA_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%80%D0%BE%D0%BC%D0%B1%D0%B8%D0%BA_3.png</picture>
       </offer>
-      <offer id="40670128" available="true">
+      <offer id="40670129" available="true">
         <name>Стул Лео (капучино)</name>
         <url>https://example.com/product/e0fb3dab-62df-11ef-0a80-0293002cc54f</url>
         <currencyId>KZT</currencyId>
@@ -1412,7 +1421,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%20%D0%BA%D0%B0%D0%BF%D1%83%D1%87%D0%B8%D0%BD%D0%BE_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%20%D0%BA%D0%B0%D0%BF%D1%83%D1%87%D0%B8%D0%BD%D0%BE_3.png</picture>
       </offer>
-      <offer id="40670129" available="true">
+      <offer id="40670130" available="true">
         <name>Стул Лео (оранжевый)</name>
         <url>https://example.com/product/e0fb3dab-62df-11ef-0a80-0293002cc54f</url>
         <currencyId>KZT</currencyId>
@@ -1423,7 +1432,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%20%D0%BE%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%20%D0%BE%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="40670130" available="true">
+      <offer id="40670131" available="true">
         <name>Стул Лео (серый)</name>
         <url>https://example.com/product/e0fb3dab-62df-11ef-0a80-0293002cc54f</url>
         <currencyId>KZT</currencyId>
@@ -1434,7 +1443,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="id131" available="true">
+      <offer id="id132" available="true">
         <name>Стул Тунис</name>
         <url>https://example.com/product/ebc8d3f9-6ed1-11f1-0a80-0e6e003e2c75</url>
         <currencyId>KZT</currencyId>
@@ -1442,7 +1451,7 @@
         <price>75000</price>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A2%D1%83%D0%BD%D0%B8%D1%81_1.png</picture>
       </offer>
-      <offer id="g1011132" available="true">
+      <offer id="g1011133" available="true">
         <name>Стол Pegasus 1400 (85/140/190, черный, белый)</name>
         <url>https://example.com/product/ed94e534-5ed6-11ef-0a80-1910000c46ed</url>
         <currencyId>KZT</currencyId>
@@ -1456,7 +1465,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%2085140190%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20Pegasus%201400%2085140190%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_6.png</picture>
       </offer>
-      <offer id="id133" available="true">
+      <offer id="id134" available="true">
         <name>Стол Вега круглый (100/135/100, белый, белый)</name>
         <url>https://example.com/product/f68a4bc2-7be6-11ef-0a80-1609000a78b7</url>
         <currencyId>KZT</currencyId>
@@ -1466,7 +1475,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B5%D0%B3%D0%B0%20%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%B9%20100135100%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B5%D0%B3%D0%B0%20%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%B9%20100135100%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="id134" available="true">
+      <offer id="id135" available="true">
         <name>Стол Вега круглый (100/135/100, белый, вотан)</name>
         <url>https://example.com/product/f68a4bc2-7be6-11ef-0a80-1609000a78b7</url>
         <currencyId>KZT</currencyId>
@@ -1477,7 +1486,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B5%D0%B3%D0%B0%20%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%B9%20100135100%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B2%D0%BE%D1%82%D0%B0%D0%BD_3.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B5%D0%B3%D0%B0%20%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%B9%20100135100%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B2%D0%BE%D1%82%D0%B0%D0%BD_4.png</picture>
       </offer>
-      <offer id="id135" available="true">
+      <offer id="id136" available="true">
         <name>Стол Вега круглый (100/135/100, дуб, вотан)</name>
         <url>https://example.com/product/f68a4bc2-7be6-11ef-0a80-1609000a78b7</url>
         <currencyId>KZT</currencyId>
@@ -1487,7 +1496,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B5%D0%B3%D0%B0%20%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%B9%20100135100%20%D0%B4%D1%83%D0%B1%20%D0%B2%D0%BE%D1%82%D0%B0%D0%BD_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B5%D0%B3%D0%B0%20%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%B9%20100135100%20%D0%B4%D1%83%D0%B1%20%D0%B2%D0%BE%D1%82%D0%B0%D0%BD_3.png</picture>
       </offer>
-      <offer id="id136" available="true">
+      <offer id="id137" available="true">
         <name>Стол Вега круглый (100/135/100, черный, вотан)</name>
         <url>https://example.com/product/f68a4bc2-7be6-11ef-0a80-1609000a78b7</url>
         <currencyId>KZT</currencyId>
@@ -1497,7 +1506,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B5%D0%B3%D0%B0%20%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%B9%20100135100%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%BE%D1%82%D0%B0%D0%BD_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%92%D0%B5%D0%B3%D0%B0%20%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D1%8B%D0%B9%20100135100%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%B2%D0%BE%D1%82%D0%B0%D0%BD_3.png</picture>
       </offer>
-      <offer id="lev020137" available="true">
+      <offer id="lev020138" available="true">
         <name>Стул Султан (дуб, рогожка)</name>
         <url>https://example.com/product/f8ed37f3-5ee6-11ef-0a80-07640010fb03</url>
         <currencyId>KZT</currencyId>
@@ -1508,7 +1517,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B4%D1%83%D0%B1%20%D1%80%D0%BE%D0%B3%D0%BE%D0%B6%D0%BA%D0%B0_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B4%D1%83%D0%B1%20%D1%80%D0%BE%D0%B3%D0%BE%D0%B6%D0%BA%D0%B0_3.png</picture>
       </offer>
-      <offer id="lev020138" available="true">
+      <offer id="lev020139" available="true">
         <name>Стул Султан (белый, обивка №10)</name>
         <url>https://example.com/product/f8ed37f3-5ee6-11ef-0a80-07640010fb03</url>
         <currencyId>KZT</currencyId>
@@ -1519,7 +1528,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_3.png</picture>
       </offer>
-      <offer id="lev020139" available="true">
+      <offer id="lev020140" available="true">
         <name>Стул Султан (белый, Обивка №4)</name>
         <url>https://example.com/product/f8ed37f3-5ee6-11ef-0a80-07640010fb03</url>
         <currencyId>KZT</currencyId>
@@ -1530,7 +1539,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
-      <offer id="lev020140" available="true">
+      <offer id="lev020141" available="true">
         <name>Стул Султан (венге, обивка №10)</name>
         <url>https://example.com/product/f8ed37f3-5ee6-11ef-0a80-07640010fb03</url>
         <currencyId>KZT</currencyId>
@@ -1541,7 +1550,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%BE%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%2010_3.png</picture>
       </offer>
-      <offer id="lev020141" available="true">
+      <offer id="lev020142" available="true">
         <name>Стул Султан (венге, Обивка №4)</name>
         <url>https://example.com/product/f8ed37f3-5ee6-11ef-0a80-07640010fb03</url>
         <currencyId>KZT</currencyId>
@@ -1552,7 +1561,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
-      <offer id="lev020142" available="true">
+      <offer id="lev020143" available="true">
         <name>Стул Султан (дуб, Обивка №4)</name>
         <url>https://example.com/product/f8ed37f3-5ee6-11ef-0a80-07640010fb03</url>
         <currencyId>KZT</currencyId>
@@ -1563,7 +1572,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
-      <offer id="lev020143" available="true">
+      <offer id="lev020144" available="true">
         <name>Стул Султан (орех, Обивка №4)</name>
         <url>https://example.com/product/f8ed37f3-5ee6-11ef-0a80-07640010fb03</url>
         <currencyId>KZT</currencyId>
@@ -1574,7 +1583,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
-      <offer id="lev020144" available="true">
+      <offer id="lev020145" available="true">
         <name>Стул Султан (слоновая кость, Обивка №4)</name>
         <url>https://example.com/product/f8ed37f3-5ee6-11ef-0a80-07640010fb03</url>
         <currencyId>KZT</currencyId>
@@ -1585,7 +1594,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D1%81%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D0%BE%D1%81%D1%82%D1%8C%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D1%81%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BA%D0%BE%D1%81%D1%82%D1%8C%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
-      <offer id="id145" available="true">
+      <offer id="id146" available="true">
         <name>Стул полубарный Медео (бежевый)</name>
         <url>https://example.com/product/fe753313-84ea-11f1-0a80-034d000b18c3</url>
         <currencyId>KZT</currencyId>
@@ -1601,7 +1610,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%BF%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%B5%D0%B4%D0%B5%D0%BE%20%D0%B1%D0%B5%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9_8.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%BF%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%B5%D0%B4%D0%B5%D0%BE%20%D0%B1%D0%B5%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9_9.png</picture>
       </offer>
-      <offer id="id146" available="true">
+      <offer id="id147" available="true">
         <name>Стул полубарный Медео (серый)</name>
         <url>https://example.com/product/fe753313-84ea-11f1-0a80-034d000b18c3</url>
         <currencyId>KZT</currencyId>
@@ -1617,7 +1626,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%BF%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%B5%D0%B4%D0%B5%D0%BE%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9_8.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%BF%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%B5%D0%B4%D0%B5%D0%BE%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9_9.png</picture>
       </offer>
-      <offer id="id147" available="true">
+      <offer id="id148" available="true">
         <name>Стул полубарный Медео (черный экокожа)</name>
         <url>https://example.com/product/fe753313-84ea-11f1-0a80-034d000b18c3</url>
         <currencyId>KZT</currencyId>
@@ -1634,7 +1643,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%BF%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%B5%D0%B4%D0%B5%D0%BE%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D1%8D%D0%BA%D0%BE%D0%BA%D0%BE%D0%B6%D0%B0_9.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%BF%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%B5%D0%B4%D0%B5%D0%BE%20%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D1%8D%D0%BA%D0%BE%D0%BA%D0%BE%D0%B6%D0%B0_10.png</picture>
       </offer>
-      <offer id="lev004148" available="true">
+      <offer id="lev004149" available="true">
         <name>Стол Лео 80/120/160 (белый, белый)</name>
         <url>https://example.com/product/ff9fa150-5ede-11ef-0a80-0287000e60f1</url>
         <currencyId>KZT</currencyId>
@@ -1644,7 +1653,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B5%D0%BE%2080120160%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B5%D0%BE%2080120160%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_2.png</picture>
       </offer>
-      <offer id="lev004149" available="true">
+      <offer id="lev004150" available="true">
         <name>Стол Лео 80/120/160 (белый, вотан)</name>
         <url>https://example.com/product/ff9fa150-5ede-11ef-0a80-0287000e60f1</url>
         <currencyId>KZT</currencyId>
@@ -1655,7 +1664,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B5%D0%BE%2080120160%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B2%D0%BE%D1%82%D0%B0%D0%BD_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B5%D0%BE%2080120160%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%B2%D0%BE%D1%82%D0%B0%D0%BD_3.png</picture>
       </offer>
-      <offer id="lev004150" available="true">
+      <offer id="lev004151" available="true">
         <name>Стол Лео 80/120/160 (белый, цемент)</name>
         <url>https://example.com/product/ff9fa150-5ede-11ef-0a80-0287000e60f1</url>
         <currencyId>KZT</currencyId>
@@ -1667,7 +1676,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B5%D0%BE%2080120160%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%86%D0%B5%D0%BC%D0%B5%D0%BD%D1%82_3.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B5%D0%BE%2080120160%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%86%D0%B5%D0%BC%D0%B5%D0%BD%D1%82_4.png</picture>
       </offer>
-      <offer id="lev004151" available="true">
+      <offer id="lev004152" available="true">
         <name>Стол Лео 80/120/160 (венге, вотан)</name>
         <url>https://example.com/product/ff9fa150-5ede-11ef-0a80-0287000e60f1</url>
         <currencyId>KZT</currencyId>
@@ -1679,7 +1688,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B5%D0%BE%2080120160%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%B2%D0%BE%D1%82%D0%B0%D0%BD_3.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B5%D0%BE%2080120160%20%D0%B2%D0%B5%D0%BD%D0%B3%D0%B5%20%D0%B2%D0%BE%D1%82%D0%B0%D0%BD_4.png</picture>
       </offer>
-      <offer id="lev004152" available="true">
+      <offer id="lev004153" available="true">
         <name>Стол Лео 80/120/160 (венге, цемент)</name>
         <url>https://example.com/product/ff9fa150-5ede-11ef-0a80-0287000e60f1</url>
         <currencyId>KZT</currencyId>
