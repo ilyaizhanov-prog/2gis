@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-08-02 18:47">
+<yml_catalog date="2026-08-02 20:02">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -386,7 +386,6 @@
         <vendorCode>lev016</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B5%D0%BE%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B5%D0%BE%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B5%D0%BE%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
       <offer id="lev00536" available="true">
         <name>Стол Лео 85/145/190 (белый, вотан)</name>
