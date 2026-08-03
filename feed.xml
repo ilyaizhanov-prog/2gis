@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-08-03 08:54">
+<yml_catalog date="2026-08-03 12:08">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -434,7 +434,7 @@
         <url>https://example.com/product/40473bca-5ed7-11ef-0a80-1910000c5eda</url>
         <currencyId>KZT</currencyId>
         <categoryId>2</categoryId>
-        <price>170000</price>
+        <price>175000</price>
         <vendorCode>g1013</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B5%D0%B4%D0%B0%20%D1%88%D0%BF%D0%BE%D0%BD%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B5%D0%B4%D0%B0%20%D1%88%D0%BF%D0%BE%D0%BD%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D1%8B%D0%B9_2.png</picture>
@@ -448,7 +448,7 @@
         <url>https://example.com/product/40473bca-5ed7-11ef-0a80-1910000c5eda</url>
         <currencyId>KZT</currencyId>
         <categoryId>2</categoryId>
-        <price>170000</price>
+        <price>175000</price>
         <vendorCode>g1013</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B5%D0%B4%D0%B0%20%D1%88%D0%BF%D0%BE%D0%BD%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%90%D0%BD%D0%B4%D1%80%D0%BE%D0%BC%D0%B5%D0%B4%D0%B0%20%D1%88%D0%BF%D0%BE%D0%BD%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%80%D0%B5%D1%85%20%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%BE_2.png</picture>
