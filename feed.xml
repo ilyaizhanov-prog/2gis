@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-08-14 14:05">
+<yml_catalog date="2026-08-14 15:38">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -903,7 +903,6 @@
         <categoryId>8</categoryId>
         <price>22000</price>
         <vendorCode>40-673</vendorCode>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%91%D1%80%D0%B8%D0%B7%20%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%91%D1%80%D0%B8%D0%B7%20%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%91%D1%80%D0%B8%D0%B7%20%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9_3.png</picture>
       </offer>
