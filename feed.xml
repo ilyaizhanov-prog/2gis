@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-08-20 00:27">
+<yml_catalog date="2026-08-20 02:08">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -58,6 +58,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9C%D0%BE%D0%BD%D1%82%D0%B8%201300%20%D0%B4%D1%83%D0%B1%20%D0%B4%D1%83%D0%B1_3.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9C%D0%BE%D0%BD%D1%82%D0%B8%201300%20%D0%B4%D1%83%D0%B1%20%D0%B4%D1%83%D0%B1_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9C%D0%BE%D0%BD%D1%82%D0%B8%201300%20%D0%B4%D1%83%D0%B1%20%D0%B4%D1%83%D0%B1_5.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9C%D0%BE%D0%BD%D1%82%D0%B8%201300%20%D0%B4%D1%83%D0%B1%20%D0%B4%D1%83%D0%B1_6.png</picture>
       </offer>
       <offer id="g0155" available="true">
         <name>Стол Монти 1300 (светлый орех, белый)</name>
