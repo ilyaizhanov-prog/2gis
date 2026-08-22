@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-08-22 13:22">
+<yml_catalog date="2026-08-22 14:09">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -1856,7 +1856,6 @@
         <price>95000</price>
         <vendorCode>lev004</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B5%D0%BE%2080120160%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%86%D0%B5%D0%BC%D0%B5%D0%BD%D1%82_1.png</picture>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B5%D0%BE%2080120160%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%86%D0%B5%D0%BC%D0%B5%D0%BD%D1%82_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B5%D0%BE%2080120160%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%86%D0%B5%D0%BC%D0%B5%D0%BD%D1%82_3.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B5%D0%BE%2080120160%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%86%D0%B5%D0%BC%D0%B5%D0%BD%D1%82_4.png</picture>
       </offer>
