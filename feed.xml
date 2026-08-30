@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-08-30 18:51">
+<yml_catalog date="2026-08-30 21:41">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -1341,6 +1341,7 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%82%D0%B0%D0%BC%D0%B1%D1%83%D0%BB_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%82%D0%B0%D0%BC%D0%B1%D1%83%D0%BB_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%82%D0%B0%D0%BC%D0%B1%D1%83%D0%BB_3.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%82%D0%B0%D0%BC%D0%B1%D1%83%D0%BB_4.png</picture>
       </offer>
       <offer id="id121" available="true">
         <name>Стол Моника (темный орех)</name>
