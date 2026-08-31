@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-08-30 23:57">
+<yml_catalog date="2026-08-31 02:59">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -1008,13 +1008,16 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9_3.png</picture>
       </offer>
-      <offer id="id91" available="true">
-        <name>Стол Лаунж (Дуб Канадский)</name>
-        <url>https://example.com/product/99f5637d-331c-11f0-0a80-161e002f1120</url>
+      <offer id="4062691" available="true">
+        <name>Стул Наполеон (серый)</name>
+        <url>https://example.com/product/91bab9b4-62ed-11ef-0a80-0bb3002baae6</url>
         <currencyId>KZT</currencyId>
-        <categoryId>3</categoryId>
-        <price>75000</price>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D0%BE%D0%BB%20%D0%9B%D0%B0%D1%83%D0%BD%D0%B6%20%D0%94%D1%83%D0%B1%20%D0%9A%D0%B0%D0%BD%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_1.png</picture>
+        <categoryId>8</categoryId>
+        <price>18000</price>
+        <vendorCode>40-626</vendorCode>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9_1.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9_2.png</picture>
+        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9_3.png</picture>
       </offer>
       <offer id="id92" available="true">
         <name>Стол Овьедо (D70, светлый орех)</name>
