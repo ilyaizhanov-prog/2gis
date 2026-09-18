@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-09-17 23:09">
+<yml_catalog date="2026-09-18 01:44">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -1177,7 +1177,6 @@
         <categoryId>1</categoryId>
         <price>35000</price>
         <vendorCode>N001</vendorCode>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Anfora-04_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Anfora-04_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Anfora-04_3.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20Anfora-04_4.png</picture>
@@ -1273,7 +1272,6 @@
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20izmir-9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20izmir-9_3.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20izmir-9_4.png</picture>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE%20%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%20izmir-9_5.png</picture>
       </offer>
       <offer id="N001115" available="true">
         <name>Стул Палермо (дерево, Forest-13)</name>
