@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
-<yml_catalog date="2026-09-19 01:49">
+<yml_catalog date="2026-09-19 06:44">
   <shop>
     <name>Мебель — столы и стулья</name>
     <company>Ваша компания</company>
@@ -110,7 +110,6 @@
         <price>29000</price>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%94%D0%B5%D1%80%D0%B1%D0%B8%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%94%D0%B5%D1%80%D0%B1%D0%B8%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%94%D0%B5%D1%80%D0%B1%D0%B8%20%D0%B4%D1%83%D0%B1%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
       <offer id="id9" available="true">
         <name>Стул Дерби (дуб, рогожка)</name>
@@ -1029,7 +1028,6 @@
         <price>18000</price>
         <vendorCode>40-626</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9_1.png</picture>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%20%D1%81%D0%B5%D1%80%D1%8B%D0%B9_3.png</picture>
       </offer>
       <offer id="id93" available="true">
@@ -1661,7 +1659,6 @@
         <price>28000</price>
         <vendorCode>lev015</vendorCode>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%80%D0%BE%D0%BC%D0%B1%D0%B8%D0%BA_1.png</picture>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%80%D0%BE%D0%BC%D0%B1%D0%B8%D0%BA_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%9B%D0%B5%D0%BE%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%80%D0%BE%D0%BC%D0%B1%D0%B8%D0%BA_3.png</picture>
       </offer>
       <offer id="40670151" available="true">
@@ -1789,7 +1786,6 @@
         <categoryId>1</categoryId>
         <price>30000</price>
         <vendorCode>lev020</vendorCode>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
@@ -1833,7 +1829,6 @@
         <categoryId>1</categoryId>
         <price>30000</price>
         <vendorCode>lev020</vendorCode>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_2.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%BE%D1%80%D0%B5%D1%85%20%D0%9E%D0%B1%D0%B8%D0%B2%D0%BA%D0%B0%204_3.png</picture>
       </offer>
@@ -1856,7 +1851,6 @@
         <price>39000</price>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%BF%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20A30%20%D0%B1%D0%B5%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9_1.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%BF%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20A30%20%D0%B1%D0%B5%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9_2.png</picture>
-        <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%BF%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20A30%20%D0%B1%D0%B5%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9_3.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%BF%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20A30%20%D0%B1%D0%B5%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9_4.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%BF%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20A30%20%D0%B1%D0%B5%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9_5.png</picture>
         <picture>https://ilyaizhanov-prog.github.io/2gis/images/%D0%A1%D1%82%D1%83%D0%BB%20%D0%BF%D0%BE%D0%BB%D1%83%D0%B1%D0%B0%D1%80%D0%BD%D1%8B%D0%B9%20A30%20%D0%B1%D0%B5%D0%B6%D0%B5%D0%B2%D1%8B%D0%B9_6.png</picture>
